@@ -1,7 +1,46 @@
+/* Defaults */
+nav,
+header,
+footer {
+    display: block;
+}
+
 body{
     background-color: #faf2e4;
-    margin: 0 10%;
+    margin: 0 5%;
     font-family: sans-serif;
+}
+
+/* End of Defaults */
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+nav ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav ul.topnav li a:hover {
+    background-color: orange;
+    color: blue;
 }
 
 h1{
